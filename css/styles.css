@@ -172,18 +172,17 @@ padding-top: 5px;
 width: 270px;
 }
 .features-content{
-    padding-bottom: 47px;
+    margin-bottom: 94px;
     column-gap: 30px
 }
 .features-title {
     width: 366px;
-    padding-top: 47px;
-    padding-bottom: 25px;
+    margin-bottom: 50px;
     text-align: center;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .features-images{
-padding-top:25px;
 column-gap: 30px
 }
 /* features section */
@@ -197,7 +196,6 @@ line-height: 1.16;
 width:264px ;
 text-align: center;
 margin:0 auto;
-padding-bottom:25px;
 }
 .team-section{
  background-color:#F5F4FA ;   
@@ -213,19 +211,18 @@ border-radius: 0px 0px 4px 4px;
 flex-basis: calc((100% - 90px) / 4);
 }
 .team-image{
-padding-bottom:15px;
+display:block;
+margin-bottom:30px; ;
 }
 .team-content{
-padding-top:25px;
+margin-top:50px;
 }
 .team-name {
 font-weight: 500;
-padding-top: 15px;
-padding-bottom:5px;
+margin-bottom:10px;
 }
 .team-role{
-padding-top:5px;
-padding-bottom:30px;
+margin-bottom:30px;
 }
 .team-name,.team-role {
 text-align: center;
@@ -255,14 +252,14 @@ border: 1px solid #EEEEEE;
 font-weight: 700;
 font-size:18px;
 line-height:2 ;
-padding-top:20px;
+margin-top:20px;
 padding-left: 24px;
 /*font in portfolio  */
 }
 .portfolio-p{
 font-size:16px;
 line-height:1.87 ;
-padding-bottom:20px ;
+margin-bottom:20px ;
 padding-left:24px;
 
 }
@@ -279,6 +276,9 @@ border-radius: 4px;
 }
 .btns-sort{
   column-gap:8px;  
-margin-left:297px;
+justify-content:center;
 margin-bottom:50px;
+}
+.img-project{
+display: block;
 }
