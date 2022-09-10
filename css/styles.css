@@ -76,12 +76,12 @@ background-color:#2F303A;
 /* formating header  */
 .header{
 padding-top:24px;
-padding-bottom:25px;
+padding-bottom:24px;
 border-bottom: 1px solid #ECECEC ;
 }
 .footer{
  padding-top:60px; 
- padding-bottom:51px;
+ padding-bottom:60px;
 }
 .header-link{
 font-weight: 500;
@@ -103,18 +103,22 @@ color:var(--brand-color);
 [aria-current]{
 color:var(--brand-color);
 }
-.adress a{
-font-size: 14px;
-line-height: 1.7;
-text-decoration: none;
-font-style: normal;
-}
+
 .adress {
     padding-top: 20px;
 }
 .link-footer {
-    padding-bottom: 9px;
-}/* formating footer  */
+    font-size: 14px;
+        line-height: 1.5;
+        text-decoration: none;
+        font-style: normal;
+    display:block;
+    
+}
+.link-footer:not(:last-child){
+padding-bottom: 9px;
+}
+/* formating footer  */
 .title-upper{
 text-transform: uppercase;
 }
@@ -221,6 +225,7 @@ margin-bottom:30px; ;
 margin-top:50px;
 }
 .team-name {
+font-size: 16px;
 font-weight: 500;
 margin-bottom:10px;
 }
@@ -257,6 +262,7 @@ font-size:18px;
 line-height:2 ;
 margin-top:20px;
 padding-left: 24px;
+padding-right: 24px;
 /*font in portfolio  */
 }
 .portfolio-p{
@@ -264,7 +270,7 @@ font-size:16px;
 line-height:1.87 ;
 margin-bottom:20px ;
 padding-left:24px;
-
+padding-right: 24px;
 }
 .btn-portfolio{ /*   */
 border: 0;
