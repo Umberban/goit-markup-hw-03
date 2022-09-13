@@ -107,7 +107,7 @@ color:var(--brand-color);
 }
 
 .adress {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 .link-footer {
     font-size: 14px;
@@ -115,11 +115,10 @@ color:var(--brand-color);
         text-decoration: none;
         font-style: normal;
     display:block;
-    letter-spacing: 0.03em;
-    
+    letter-spacing: 0.03em;  
 }
 .link-footer:not(:last-child){
-padding-bottom: 9px;
+margin-bottom: 9px;
 }
 /* formating footer  */
 .title-upper{
